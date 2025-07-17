@@ -1,0 +1,26 @@
+[
+    {
+        "domain": "gfjira.yyrd.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "JSESSIONID",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "6CAF6723135FE32997CAF5A067E1686C"
+    },
+    {
+        "domain": "gfjira.yyrd.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "atlassian.xsrf.token",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "BEM7-G1BN-G1X9-U6BO_67996c5fe409c41448f883bfa055f0450b2345a3_lin"
+    }
+]
