@@ -69,7 +69,7 @@ def get_commit_diff_hash(repo_path, commit_id):
     hashval = hashlib.sha1(diff_bytes).hexdigest()
     return hashval
 
-def build_branch_diffhash_map(repo_path, branch, max_commits=2000):
+def build_branch_diffhash_map(repo_path, branch, max_commits=1000):
     """
     获取目标分支最近max_commits个提交，批量计算每个diff hash，返回hash->commit_id的字典。
     """
